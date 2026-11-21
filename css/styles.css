@@ -1,0 +1,70 @@
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #819b57;
+  --color-primary-white: #faf4ea;
+  --color-secondary-dark: #465929;
+  --color-secondary-light: #a18268;
+  --color-secondary-white: #cfcfbc;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* test var() */
+/* .list-advantages {
+  font-weight: var(--font-big);
+} */
+
+.button-call-order {
+  color: #faf4ea;
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 8px;
+}
+
+.button-call-order:hover {
+  color: var(--color-secondary-dark);
+  background-color: transparent;
+  border-color: var(--color-primary-light);
+  cursor: pointer;
+}
+
+.link-style {
+  color: #faf4ea;
+}
+
+.link-style:hover {
+  color: var(--color-primary-light);
+}
+
+/* hero section */
+.hero-title {
+  color: #faf4ea;
+}
+
+.hero-title .accent {
+  color: var(--color-primary-light);
+}
+
+.list-advantages {
+  color: #faf4ea;
+  background-color: var(--color-primary-light);
+}
+
+/* section-traditions */
+p .accent {
+  color: var(--color-primary-light);
+}
+
+/* .section-title {
+} */
+
+.section-title .accent-dark {
+  color: var(--color-secondary-dark);
+}
